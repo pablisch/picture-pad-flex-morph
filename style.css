@@ -70,13 +70,13 @@ body {
   border: white 6px solid;
 }
 
-@media (max-width: 1500px) {
+@media (max-width: 1200px) {
   .col:nth-of-type(14), .col:nth-of-type(15), .col:nth-of-type(16) {
     display: none;
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
   .col:nth-of-type(11), .col:nth-of-type(12), .col:nth-of-type(13) {
     display: none;
   }
