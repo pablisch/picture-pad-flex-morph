@@ -47,8 +47,8 @@ body {
   overflow: hidden;
   /* Above lines hide text in theory but don't seem to work*/
   color: rgba(255, 255, 255, 0);
-  transition: flex 2s ease-out, opacity 2.5s ease-out, border-radius 10s;
-  border: white 4px solid;
+  transition: flex 2s ease-out, opacity 1.5s ease-out, border-radius 5s, border 3s ease-out;
+  border: rgb(231, 253, 255) 4px solid;
   border-radius: 30px;
   opacity: 0.3;
 }
@@ -66,5 +66,18 @@ body {
 .activePanel {
   flex: 15;
   opacity: 1;
-  border-radius: 100px;
+  border-radius: 130px;
+  border: white 6px solid;
+}
+
+@media (max-width: 1000px) {
+  .col:nth-of-type(14), .col:nth-of-type(15), .col:nth-of-type(16) {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .col:nth-of-type(11), .col:nth-of-type(12), .col:nth-of-type(13) {
+    display: none;
+  }
 }
