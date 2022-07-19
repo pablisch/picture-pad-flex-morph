@@ -77,6 +77,15 @@ body {
   .row9, .ro18, .row27, .row36, .row45, .row54, .row63, .row72, .row81, .row90, .row99, .row108, .row117, .row126, .row135, .row144 {
     display: none;
   }
+  .activeCol {
+    flex: 20;
+  }
+  .activeRow {
+    flex: 11;
+  }
+  .activePanel {
+    flex: 20;
+  }
 }
 
 @media (max-width: 800px) {
@@ -85,5 +94,14 @@ body {
   }
   .row8, .ro17, .row26, .row35, .row44, .row53, .row62, .row71, .row80, .row89, .row98, .row107, .row116, .row125, .row134, .row143 {
     display: none;
+  }
+  .activeCol {
+    flex: 25;
+  }
+  .activeRow {
+    flex: 16;
+  }
+  .activePanel {
+    flex: 25;
   }
 }
