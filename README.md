@@ -16,4 +16,5 @@ Clone the repository and open index.html in your browser, `open index.html`.
 ## Usage
 ![Picture Pad Flex Morpher](images/picture-pad.png)
 Open and play.
+
 ![Picture Pad Flex Morpher](images/picture-pad.gif)
